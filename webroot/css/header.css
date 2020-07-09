@@ -1,5 +1,7 @@
 .sports_app__heading {
   text-align: center;
-  margin-block-start: 30px;
-  margin-block-end: 30px;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
+  font-size: 48px;
+  margin: 0;
 }

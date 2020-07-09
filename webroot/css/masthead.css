@@ -1,20 +1,23 @@
+:root {
+  --padding-paragraph-text : 20px;
+}
 .sport_information {
   font-size: 16px;
   line-height: 23px;
-  padding-block-start: 14px;
-  padding-block-end: 14px;
+  padding-block-start: var(--padding-paragraph-text);
+  padding-block-end: var(--padding-paragraph-text);
   text-align: center;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+  padding-inline-start: var(--padding-paragraph-text);
+  padding-inline-end: var(--padding-paragraph-text);
 }
 .sport_advertisement {
   font-size: 30px;
   line-height: 40px;
   text-align: center;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
-  padding-block-start: 20px;
-  padding-block-end: 20px;
+  padding-inline-start: var(--padding-paragraph-text);
+  padding-inline-end: var(--padding-paragraph-text);
+  padding-block-start: var(--padding-paragraph-text);
+  padding-block-end: var(--padding-paragraph-text);
 }
 
 .wrapper {
@@ -25,6 +28,6 @@
 }
 
 .sports_app__button--download {
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+  padding-inline-start: var(--padding-paragraph-text);
+  padding-inline-end: var(--padding-paragraph-text);
 }
