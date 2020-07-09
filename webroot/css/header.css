@@ -2,16 +2,4 @@
   text-align: center;
   margin-block-start: 30px;
   margin-block-end: 30px;
-  background-image: url(../icons/icon-ball.svg);
-  background-repeat: no-repeat;
-}
-
-.sport_advertisement {
-  font-size: 30px;
-  line-height: 40px;
-  text-align: center;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
-  padding-block-start: 20px;
-  padding-block-end: 20px;
 }
