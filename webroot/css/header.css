@@ -1,7 +1,9 @@
-header > h1 {
+.sports_app__heading {
   text-align: center;
   margin-block-start: 30px;
   margin-block-end: 30px;
+  background-image: url(../icons/icon-ball.svg);
+  background-repeat: no-repeat;
 }
 
 .sport_advertisement {
