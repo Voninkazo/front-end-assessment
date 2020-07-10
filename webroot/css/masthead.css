@@ -6,16 +6,20 @@
 .sport_information {
   font-size: var(--font-size-paragraph-text);
   line-height: 23px;
+  font-weight: normal;
   padding-block-start: var(--padding-paragraph-text);
   padding-block-end: var(--padding-paragraph-text);
   text-align: center;
   padding-inline-start: var(--padding-paragraph-text);
   padding-inline-end: var(--padding-paragraph-text);
+  font-family: lato, arial;
 }
 .sport_advertisement {
   font-size: var(--font-size-heading-text);
   line-height: 40px;
   text-align: center;
+  font-family: lato, arial;
+  font-weight: 900;
   padding-inline-start: var(--padding-paragraph-text);
   padding-inline-end: var(--padding-paragraph-text);
   padding-block-start: var(--padding-paragraph-text);
