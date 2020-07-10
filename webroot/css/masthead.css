@@ -20,6 +20,7 @@
 
 body {
   background: #F4F6F9;
+  margin: 0;
 }
 .sport_information {
   font-size: var(--font-size-paragraph-text);
@@ -69,11 +70,10 @@ span {
   --font-size-paragraph-text: 18px;
   }
 
-  .sport_advertisement {
-    text-align: start;
-  }
+  .sport_advertisement,
   .sport_information {
     text-align: start;
+    max-width: 546px;
   }
   .sports_app__navigation {
     display: flex;
@@ -81,15 +81,12 @@ span {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  .sport_app__masthead {
+
+  body {
     background-image: url(../img/bg_header.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-  }
-  .sports_app__navigation,
-  .sport_advertisement,
-  .sport_information {
-    flex-wrap: wrap;
+    margin: 0;
   }
 }
