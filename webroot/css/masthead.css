@@ -18,6 +18,9 @@
        url(../fonts/lato_regular.woff);
 }
 
+body {
+  background: #F4F6F9;
+}
 .sport_information {
   font-size: var(--font-size-paragraph-text);
   line-height: 23px;
@@ -54,9 +57,6 @@
 span {
   display: none;
 }
-.sports_app__image {
-  display: none;
-}
 
 .sports_app__button--download {
   padding-inline-start: var(--padding-inline-start-text);
@@ -65,10 +65,6 @@ span {
 
 @media (min-width:992px) {
   :root {
-  --padding-inline-end-text : 20px;
-  --padding-block-start-text : 20px;
-  --padding-inline-start-text : 20px;
-  --padding-block-end-text : 20px;
   --font-size-heading-text: 36px;
   --font-size-paragraph-text: 18px;
   }
@@ -79,21 +75,21 @@ span {
   .sport_information {
     text-align: start;
   }
-  .sport_app__masthead {
-    background: #F4F6F9;
-  }
   .sports_app__navigation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-  .sports_app__image {
-    display: block;
-  }
   .sport_app__masthead {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
+    background-image: url(../img/bg_header.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .sports_app__navigation,
+  .sport_advertisement,
+  .sport_information {
+    flex-wrap: wrap;
   }
 }
