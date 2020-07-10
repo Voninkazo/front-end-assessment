@@ -44,4 +44,19 @@
   .sport_advertisement {
     text-align: start;
   }
+  .sport_information {
+    text-align: start;
+  }
+  .sports_app__header {
+    background-image: url(../img/bg_header.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
