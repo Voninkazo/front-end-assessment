@@ -1,5 +1,8 @@
 :root {
-  --padding-paragraph-text : 20px;
+  --padding-inline-end-text : 20px;
+  --padding-block-start-text : 20px;
+  --padding-inline-start-text : 20px;
+  --padding-block-end-text : 20px;
   --font-size-heading-text: 30px;
   --font-size-paragraph-text: 16px;
 }
@@ -20,11 +23,11 @@
   line-height: 23px;
   font-weight: normal;
   color: #4F4F4F;
-  padding-block-start: var(--padding-paragraph-text);
-  padding-block-end: var(--padding-paragraph-text);
+  padding-block-start: var(--padding-block-start-text-text);
+  padding-block-end: var(--padding-block-end-text);
   text-align: center;
-  padding-inline-start: var(--padding-paragraph-text);
-  padding-inline-end: var(--padding-paragraph-text);
+  padding-inline-start: var(--padding-inline-start-text);
+  padding-inline-end: var(--padding-inline-end-text);
   font-family: Lato, Arial, Helvetica, sans-serif;
 }
 .sport_advertisement {
@@ -35,13 +38,13 @@
   font-style: normal;
   font-weight: 900;
   color: #333333;
-  padding-inline-start: var(--padding-paragraph-text);
-  padding-inline-end: var(--padding-paragraph-text);
-  padding-block-start: var(--padding-paragraph-text);
-  padding-block-end: var(--padding-paragraph-text);
+  padding-inline-start: var(--padding-inline-start-text);
+  padding-inline-end: var(--padding-inline-end-text);
+  padding-block-start: var(--padding-block-start-text);
+  padding-block-end: var(--padding-block-end-text);
 }
 
-.wrapper {
+.sports_app__navigation {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -51,17 +54,23 @@
 span {
   display: none;
 }
-
-.sports_app__button--download {
-  padding-inline-start: var(--padding-paragraph-text);
-  padding-inline-end: var(--padding-paragraph-text);
+.sports_app__image {
+  display: none;
 }
 
-@media (min-width: 480px) {
+.sports_app__button--download {
+  padding-inline-start: var(--padding-inline-start-text);
+  padding-inline-end: var(--padding-inline-end-text);
+}
+
+@media (min-width:992px) {
   :root {
-    --padding-paragraph-text : 20px;
-    --font-size-heading-text: 36px;
-    --font-size-paragraph-text: 18px;
+  --padding-inline-end-text : 20px;
+  --padding-block-start-text : 20px;
+  --padding-inline-start-text : 20px;
+  --padding-block-end-text : 20px;
+  --font-size-heading-text: 36px;
+  --font-size-paragraph-text: 18px;
   }
 
   .sport_advertisement {
@@ -70,16 +79,21 @@ span {
   .sport_information {
     text-align: start;
   }
-  /* .sports_app__header {
-    background-image: url(../img/bg_header.png);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-  } */
-  .wrapper {
+  .sport_app__masthead {
+    background: #F4F6F9;
+  }
+  .sports_app__navigation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+  }
+  .sports_app__image {
+    display: block;
+  }
+  .sport_app__masthead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
   }
 }

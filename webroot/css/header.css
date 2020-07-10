@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 992px) {
   .sports_app__heading {
     text-align: start;
     padding-inline-start: 20px;
