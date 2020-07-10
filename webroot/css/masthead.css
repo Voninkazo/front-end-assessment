@@ -40,11 +40,7 @@
     --font-size-heading-text: 36px;
     --font-size-paragraph-text: 18px;
   }
-  .sports_app__heading {
-    text-align: start;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   .sport_advertisement {
     text-align: start;
   }
