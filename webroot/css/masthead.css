@@ -6,23 +6,13 @@
   --font-size-heading-text: 30px;
   --font-size-paragraph-text: 16px;
 }
-@font-face {
-  font-family: lato;
-  src: url(../fonts/lato_bold.woff2),
-       url(../fonts/lato_bold.woff);
-}
-
-@font-face {
-  font-family: lato;
-  src: url(../fonts/lato_regular.woff2),
-       url(../fonts/lato_regular.woff);
-}
 
 body {
   background: #F4F6F9;
   margin: 0;
 }
 .sport_information {
+  font-family: lato_regular;
   font-size: var(--font-size-paragraph-text);
   line-height: 23px;
   font-weight: normal;
@@ -32,15 +22,14 @@ body {
   text-align: center;
   padding-inline-start: var(--padding-inline-start-text);
   padding-inline-end: var(--padding-inline-end-text);
-  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 .sport_advertisement {
   font-size: var(--font-size-heading-text);
   line-height: 40px;
   text-align: center;
-  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-family: lato_bold;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   color: #333333;
   padding-inline-start: var(--padding-inline-start-text);
   padding-inline-end: var(--padding-inline-end-text);
