@@ -13,10 +13,10 @@
   color: #333333;
   line-height: 40px;
   text-align: center;
-  padding-inline-start: var(--padding-inline-start-text);
-  padding-inline-end: var(--padding-inline-end-text);
   padding-block-start: var(--padding-block-start-text);
   padding-block-end: var(--padding-block-end-text);
+  padding-inline-start: var(--padding-inline-start-text);
+  padding-inline-end: var(--padding-inline-end-text);
 }
 
 .sport_information {
@@ -52,11 +52,6 @@ span {
     --font-size-paragraph-text: 18px;
   }
 
-  .sport_advertisement,
-  .sport_information {
-    text-align: start;
-    max-width: 546px;
-  }
   .sports_app__navigation {
     display: flex;
     flex-direction: row;
@@ -64,10 +59,30 @@ span {
     justify-content: flex-start;
   }
 
+  .sport_advertisement {
+    max-width: 546px;
+    max-height: 96px;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .sport_information {
+    width: 453px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
   section {
+    max-width: 100%;
+    max-height: 100%;
     background-image: url(../img/bg_header.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 0;
+    margin-left: 158px;
+    text-align: left;
   }
 }
