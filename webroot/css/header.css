@@ -1,9 +1,9 @@
 .sports_app__heading {
-  padding-block-start: 30px;
-  padding-block-end: 30px;
   font-size: 48px;
   margin: 0;
   text-align: center;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
 }
 
 @media (min-width: 992px) {
