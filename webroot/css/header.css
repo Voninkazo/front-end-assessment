@@ -1,3 +1,11 @@
+header > h1 {
+  display: none;
+}
+
+.sports_app__text svg {
+  max-width: 178px;
+  max-height: 70px;
+}
 .sports_app__heading {
   font-size: 48px;
   margin: 0;
@@ -10,5 +18,9 @@
   .sports_app__heading {
     text-align: start;
     padding-inline-start: 20px;
+  }
+  .sports_app__text svg {
+    max-width: 92px;
+    max-height: 32px;
   }
 }
