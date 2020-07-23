@@ -1,26 +1,14 @@
-header > h1 {
-  display: none;
-}
-
-.sports_app__text {
-  max-width: 178px;
-  max-height: 70px;
-  display: block;
-}
 .sports_app__heading {
   font-size: 48px;
-  padding-block-start: 20px;
-  padding-block-end: 20px;
-  text-align: flex-start;
+  margin: 0;
+  text-align: center;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 992px) {
   .sports_app__heading {
     text-align: start;
     padding-inline-start: 20px;
-  }
-  .sports_app__text {
-    max-width: 92px;
-    max-height: 32px;
   }
 }
