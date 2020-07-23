@@ -1,3 +1,12 @@
+:root {
+  --padding-inline-end-text: 20px;
+  --padding-block-start-text: 20px;
+  --padding-inline-start-text: 20px;
+  --padding-block-end-text: 20px;
+  --font-size-heading-text: 30px;
+  --font-size-paragraph-text: 16px;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -6,4 +15,10 @@ body {
   margin: 0;
   padding: 0;
   background: #f4f6f9;
+}
+@media (min-width: 1040px) {
+  :root {
+    --font-size-heading-text: 36px;
+    --font-size-paragraph-text: 18px;
+  }
 }
