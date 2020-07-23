@@ -2,16 +2,16 @@ header > h1 {
   display: none;
 }
 
-.sports_app__text svg {
+.sports_app__text {
   max-width: 178px;
   max-height: 70px;
+  display: block;
 }
 .sports_app__heading {
   font-size: 48px;
-  margin: 0;
-  text-align: center;
-  padding-block-start: 30px;
-  padding-block-end: 30px;
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+  text-align: flex-start;
 }
 
 @media (min-width: 1040px) {
@@ -19,7 +19,7 @@ header > h1 {
     text-align: start;
     padding-inline-start: 20px;
   }
-  .sports_app__text svg {
+  .sports_app__text {
     max-width: 92px;
     max-height: 32px;
   }

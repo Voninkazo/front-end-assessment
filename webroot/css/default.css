@@ -21,4 +21,7 @@ body {
     --font-size-heading-text: 36px;
     --font-size-paragraph-text: 18px;
   }
+  body {
+    margin-left: 100px;
+  }
 }

@@ -1,7 +1,7 @@
 .sports_app__navigation {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
 }
 .sports_app__button--download {
@@ -12,9 +12,18 @@
 span {
   display: none;
 }
+nav a {
+  width: 145px;
+  height: 44px;
+  display: block;
+}
 
 @media (min-width: 1040px) {
   .sports_app__navigation {
     justify-content: flex-start;
+  }
+  nav a {
+    width: 156px;
+    height: 47px;
   }
 }
