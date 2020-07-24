@@ -9,15 +9,15 @@ header > h1 {
 }
 .sports_app__heading {
   font-size: 48px;
-  padding-block-start: 20px;
-  padding-block-end: 20px;
+  padding-block-start: $header-padding-value;
+  padding-block-end: $header-padding-value;
   text-align: flex-start;
 }
 
 @media (min-width: 1040px) {
   .sports_app__heading {
     text-align: start;
-    padding-inline-start: 20px;
+    padding-inline-start: $header-padding-value;
   }
   .sports_app__text {
     max-width: 92px;

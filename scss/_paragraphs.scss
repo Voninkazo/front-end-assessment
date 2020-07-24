@@ -1,7 +1,7 @@
 .sport_advertisement {
   font-family: lato_bold;
   font-size: var(--font-size-heading-text);
-  color: #333333;
+  color: $heading-colors;
   line-height: 40px;
   text-align: center;
   padding-block-start: var(--padding-block-start-text);
@@ -15,7 +15,7 @@
   font-size: var(--font-size-paragraph-text);
   line-height: 23px;
   text-align: center;
-  color: #4f4f4f;
+  color: $paragraph-colors;
   padding-block-start: var(--padding-block-start-text-text);
   padding-block-end: var(--padding-block-end-text);
   padding-inline-start: var(--padding-inline-start-text);

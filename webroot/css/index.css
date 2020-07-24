@@ -109,7 +109,7 @@ nav a {
   font-size: var(--font-size-paragraph-text);
   line-height: 23px;
   text-align: center;
-  color: #4f4f4f;
+  color: #4F4F4F;
   padding-block-start: var(--padding-block-start-text-text);
   padding-block-end: var(--padding-block-end-text);
   padding-inline-start: var(--padding-inline-start-text);
@@ -128,6 +128,3 @@ nav a {
     font-size: 18px;
     line-height: 26px;
     text-align: left; } }
-
-body {
-  margin: 0; }
