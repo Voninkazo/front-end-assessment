@@ -11,12 +11,12 @@
   src: local(lato-regular), local(lato-regular), url(../fonts/lato_regular.woff2) format("woff2"), url(../fonts/lato_regular.woff) format("woff"); }
 
 :root {
-  --padding-inline-end-text: 20px;
+  --padding-inline-end-text: $header-padding-value;
   --padding-block-start-text: 20px;
   --padding-inline-start-text: 20px;
   --padding-block-end-text: 20px;
-  --font-size-heading-text: 30px;
-  --font-size-paragraph-text: 16px; }
+  --font-size-heading-text: $hader-font-size;
+  --font-size-paragraph-text: $paragraph-font-size; }
 
 html {
   margin: 0;
