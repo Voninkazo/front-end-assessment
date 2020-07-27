@@ -68,7 +68,7 @@ header > h1 {
     text-align: left;
     margin: auto; } }
 
-.sports_app__navigation {
+.button_container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -92,7 +92,7 @@ nav ul {
   margin: 0; }
 
 @media (min-width: 1040px) {
-  .sports_app__navigation {
+  .button_container {
     justify-content: flex-start; }
   nav a {
     width: 156px;
