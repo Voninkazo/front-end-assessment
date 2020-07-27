@@ -1,3 +1,9 @@
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .sports_app__navigation {
   display: flex;
   flex-direction: row;
@@ -17,6 +23,10 @@ nav a {
   height: 44px;
   display: block;
 }
+nav ul {
+  @include list-reset;
+}
+
 
 @media (min-width: 1040px) {
   .sports_app__navigation {
