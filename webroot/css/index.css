@@ -70,6 +70,9 @@ header > h1 {
     text-align: left;
     margin: auto; } }
 
+.sport_app__masthead p {
+  margin: 0; }
+
 .button_container {
   display: flex;
   flex-direction: row;
@@ -92,6 +95,10 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0; }
+
+nav {
+  padding-block-start: 50px;
+  padding-block-end: 59px; }
 
 @media (min-width: 1040px) {
   .button_container {
@@ -135,6 +142,11 @@ nav ul {
     font-size: 18px;
     line-height: 26px;
     text-align: left; } }
+
+.user_interface {
+  margin: 0;
+  padding-inline-start: 18px;
+  padding-inline-end: 22px; }
 
 .user_interface__navigation,
 .user_article__heading,
