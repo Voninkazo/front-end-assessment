@@ -13,6 +13,10 @@ $user-interface-default-padding: 20px;
 $user-interface-padding-bottom: 25px;
 $article-line-height-text: 23px;
 $article-text-color: #4F4F4F;
+$article-header-font-size: 28px;
+$article-color-header: #333333;
+$article-line-height-header: 37px;
+$article-padding-text: 27px;
 
 @mixin list-reset {
   list-style: none;
@@ -38,4 +42,11 @@ $article-text-color: #4F4F4F;
   line-height: $article-line-height-text;
   font-size: $paragrph-font-size;
   color: $article-text-color;
+}
+
+@mixin style-article-header {
+  font-size: $article-header-font-size;
+  font-family: lato_bold;
+  line-height: $article-line-height-header;
+  color:  $article-color-header ;
 }

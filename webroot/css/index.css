@@ -149,13 +149,27 @@ nav {
   padding-inline-end: 20px;
   padding-block-end: 25px; }
 
+.user_article__heading {
+  font-size: 28px;
+  font-family: lato_bold;
+  line-height: 37px;
+  color: #333333; }
+
 .user_article_paragraph {
   font-family: lato_regular;
   text-align: center;
   margin: 0;
   line-height: 23px;
   font-size: 16px;
-  color: #4F4F4F; }
+  color: #4F4F4F;
+  margin: 0;
+  padding-block-start: 27px;
+  padding-block-end: 27px; }
+
+.user_article__heading--text {
+  margin: 0;
+  padding-block-start: 27px;
+  padding-block-end: 27px; }
 
 .user_interface__navigation,
 .user_article__heading,

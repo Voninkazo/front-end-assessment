@@ -1,10 +1,18 @@
-.user_intrface_article {
+@import "variables";
 
-}
 .user_article__heading {
-
+@include style-article-header;
 }
 
 .user_article_paragraph {
 @include style-paragraph;
+margin: 0;
+padding-block-start: $article-padding-text;
+padding-block-end: $article-padding-text;
+}
+
+.user_article__heading--text {
+  margin: 0;
+  padding-block-start: $article-padding-text;
+  padding-block-end: $article-padding-text;
 }
