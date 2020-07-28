@@ -1,9 +1,14 @@
+.user_interface__navigation,
+.user_article__heading,
 .user_interface_heading {
-  font-family: lato_bold;
-  font-size: $user-interface-font-size-link;
+  @include center-header;
+}
+.user_interface_heading,
+.user_interface__navigation {
+  line-height: $links-line-height-value;
 }
 
-.user_interface_heading--text {
-
+.user_interface_heading--text,
+.user_interface__navigation--text {
+  @include style-anchor;
 }
-

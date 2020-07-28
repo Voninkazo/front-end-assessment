@@ -136,6 +136,18 @@ nav ul {
     line-height: 26px;
     text-align: left; } }
 
+.user_interface__navigation,
+.user_article__heading,
 .user_interface_heading {
+  text-align: center; }
+
+.user_interface_heading,
+.user_interface__navigation {
+  line-height: 21px; }
+
+.user_interface_heading--text,
+.user_interface__navigation--text {
+  text-decoration: none;
+  color: #00ADEE;
   font-family: lato_bold;
   font-size: 16px; }
