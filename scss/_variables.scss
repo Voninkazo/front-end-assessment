@@ -9,6 +9,10 @@ $reset-padding-default: 0;
 $font-size-link: 16px;
 $link-colors: #00ADEE;
 $links-line-height-value: 21px;
+$user-interface-default-padding: 20px;
+$user-interface-padding-bottom: 25px;
+$article-line-height-text: 23px;
+$article-text-color: #4F4F4F;
 
 @mixin list-reset {
   list-style: none;
@@ -25,4 +29,13 @@ $links-line-height-value: 21px;
 
 @mixin center-header {
   text-align: center;
+}
+
+@mixin style-paragraph {
+  font-family: lato_regular;
+  text-align: center;
+  margin: 0;
+  line-height: $article-line-height-text;
+  font-size: $paragrph-font-size;
+  color: $article-text-color;
 }

@@ -1,5 +1,8 @@
 .user_interface {
   margin: 0;
-  padding-inline-start: 18px;
-  padding-inline-end: 22px;
+  // max-width: 340px;
+  // max-height: 368px;
+  padding-inline-start: $user-interface-default-padding;
+  padding-inline-end: $user-interface-default-padding;
+  padding-block-end: $user-interface-padding-bottom;
 }

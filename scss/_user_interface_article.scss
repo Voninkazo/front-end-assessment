@@ -4,3 +4,7 @@
 .user_article__heading {
 
 }
+
+.user_article_paragraph {
+@include style-paragraph;
+}

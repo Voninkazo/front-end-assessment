@@ -145,8 +145,17 @@ nav {
 
 .user_interface {
   margin: 0;
-  padding-inline-start: 18px;
-  padding-inline-end: 22px; }
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-end: 25px; }
+
+.user_article_paragraph {
+  font-family: lato_regular;
+  text-align: center;
+  margin: 0;
+  line-height: 23px;
+  font-size: 16px;
+  color: #4F4F4F; }
 
 .user_interface__navigation,
 .user_article__heading,
