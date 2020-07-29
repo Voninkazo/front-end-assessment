@@ -192,7 +192,9 @@ nav {
   font-family: lato_bold;
   line-height: 37px;
   color: #333333;
-  margin: 0; }
+  margin: 0;
+  padding-block-start: 52px;
+  padding-block-end: 52px; }
 
 .feature_experience {
   margin: 0;
@@ -201,3 +203,14 @@ nav {
 
 .feature_experince__heading {
   text-align: center; }
+
+.feature_experience__information {
+  font-family: lato_regular;
+  text-align: center;
+  margin: 0;
+  line-height: 23px;
+  font-size: 16px;
+  color: #4F4F4F;
+  padding-block-end: 50px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px; }

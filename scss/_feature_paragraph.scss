@@ -1,0 +1,7 @@
+@import "variables";
+.feature_experience__information {
+    @include style-paragraph;
+    padding-block-end: 50px;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+}
