@@ -1,8 +1,9 @@
+@import "variables";
 .user_interface {
-  margin: 0;
-  // max-width: 340px;
-  // max-height: 368px;
-  padding-inline-start: $user-interface-default-padding;
-  padding-inline-end: $user-interface-default-padding;
-  padding-block-end: $user-interface-padding-bottom;
+    margin: 0;
+    // max-width: 340px;
+    // max-height: 368px;
+    padding-inline-start: $user-interface-default-padding;
+    padding-inline-end: $user-interface-default-padding;
+    padding-block-end: $user-interface-padding-bottom;
 }

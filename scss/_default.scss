@@ -1,29 +1,33 @@
+@import "variables";
 :root {
-  --padding-inline-end-text: $header-padding-value;
-  --padding-block-start-text: 20px;
-  --padding-inline-start-text: 20px;
-  --padding-block-end-text: 20px;
-  --font-size-heading-text: $hader-font-size;
-  --font-size-paragraph-text: $paragraph-font-size;
+    --padding-inline-end-text: $header-padding-value;
+    --padding-block-start-text: 20px;
+    --padding-inline-start-text: 20px;
+    --padding-block-end-text: 20px;
+    --font-size-heading-text: $hader-font-size;
+    --font-size-paragraph-text: $paragraph-font-size;
 }
 
 html {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .sport_app__masthead {
-  background:  $body-bg-color;
+    background: $body-bg-color;
 }
+
 @media (min-width: 1040px) {
-  :root {
-    --font-size-heading-text: 36px;
-    --font-size-paragraph-text: 18px;
-  }
-  body {
-    margin-left: 100px;
-  }
+     :root {
+        --font-size-heading-text: 36px;
+        --font-size-paragraph-text: 18px;
+    }
+    body {
+        margin-left: 100px;
+    }
 }
