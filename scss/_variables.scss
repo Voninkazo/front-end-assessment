@@ -1,7 +1,7 @@
 $header-padding-value: 20px;
 $body-bg-color: #f4f6f9;
 $heading-colors: #333333;
-$paragraph-colors:  #4F4F4F;
+$paragraph-colors: #4F4F4F;
 $header-font-size: 30px;
 $paragrph-font-size: 16px;
 $reset-margin-default: 0;
@@ -17,36 +17,36 @@ $article-header-font-size: 28px;
 $article-color-header: #333333;
 $article-line-height-header: 37px;
 $article-padding-text: 27px;
-
+$feature-default-padding: 21px;
 @mixin list-reset {
-  list-style: none;
-  padding: $reset-padding-default;
-  margin: $reset-margin-default;
+    list-style: none;
+    padding: $reset-padding-default;
+    margin: $reset-margin-default;
 }
 
 @mixin style-anchor {
-  text-decoration: none;
-  color: $link-colors;
-  font-family: lato_bold;
-  font-size: $font-size-link;
+    text-decoration: none;
+    color: $link-colors;
+    font-family: lato_bold;
+    font-size: $font-size-link;
 }
 
 @mixin center-header {
-  text-align: center;
+    text-align: center;
 }
 
 @mixin style-paragraph {
-  font-family: lato_regular;
-  text-align: center;
-  margin: 0;
-  line-height: $article-line-height-text;
-  font-size: $paragrph-font-size;
-  color: $article-text-color;
+    font-family: lato_regular;
+    text-align: center;
+    margin: 0;
+    line-height: $article-line-height-text;
+    font-size: $paragrph-font-size;
+    color: $article-text-color;
 }
 
 @mixin style-article-header {
-  font-size: $article-header-font-size;
-  font-family: lato_bold;
-  line-height: $article-line-height-header;
-  color:  $article-color-header ;
+    font-size: $article-header-font-size;
+    font-family: lato_bold;
+    line-height: $article-line-height-header;
+    color: $article-color-header;
 }

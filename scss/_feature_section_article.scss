@@ -1,0 +1,15 @@
+@import "variables";
+.feature_experience__header {
+    @include style-article-header;
+    margin: 0;
+}
+
+.feature_experience {
+    margin: 0;
+    padding-inline-start: $feature-default-padding;
+    padding-inline-end: $feature-default-padding;
+}
+
+.feature_experince__heading {
+    @include center-header;
+}
