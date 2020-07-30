@@ -11,3 +11,9 @@
     display: inline-block;
     fill: #00ADEE;
 }
+
+@media (min-width: 1040px) {
+    .feature_list__item svg {
+        fill: #FFFFFF;
+    }
+}

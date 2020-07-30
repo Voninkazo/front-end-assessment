@@ -16,3 +16,20 @@
 .feature_experince__heading {
     @include center-header;
 }
+
+@media (min-width: 1040px) {
+    .feature_list__item {}
+    .feature_list__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 2;
+        column-gap: 90px;
+        row-gap: 45px;
+    }
+    .feature_experience {
+        background-color: #00ADEE;
+    }
+    .feature_experience__header {
+        color: #FFFFFF;
+    }
+}

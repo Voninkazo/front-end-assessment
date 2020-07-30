@@ -205,6 +205,18 @@ nav {
 .feature_experince__heading {
   text-align: center; }
 
+@media (min-width: 1040px) {
+  .feature_list__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    column-gap: 90px;
+    row-gap: 45px; }
+  .feature_experience {
+    background-color: #00ADEE; }
+  .feature_experience__header {
+    color: #FFFFFF; } }
+
 .feature_experience__information {
   font-family: lato_regular;
   text-align: center;
@@ -215,6 +227,10 @@ nav {
   padding-block-end: 50px;
   padding-inline-start: 24px;
   padding-inline-end: 24px; }
+
+@media (min-width: 1040px) {
+  .feature_experience__information {
+    color: #FFFFFF; } }
 
 .feature_list__container {
   list-style: none;
@@ -227,6 +243,10 @@ nav {
 .feature_list__item svg {
   display: inline-block;
   fill: #00ADEE; }
+
+@media (min-width: 1040px) {
+  .feature_list__item svg {
+    fill: #FFFFFF; } }
 
 body > footer {
   background-color: #00ADEE;
@@ -263,6 +283,9 @@ body > footer {
   background-image: url(../icons/logo_sky_sports.svg);
   background-size: contain;
   background-repeat: no-repeat; }
+
+.featured_container {
+  display: flex; }
 
 .featured_example__header {
   font-size: 28px;
