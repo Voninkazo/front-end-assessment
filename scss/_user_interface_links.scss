@@ -1,16 +1,23 @@
-@import "variables";
-.user_interface__navigation,
-.user_article__heading,
-.user_interface_heading {
-    @include center-header;
-}
+    @import "variables";
+    .user_interface__navigation,
+    .user_article__heading,
+    .user_interface_heading {
+        @include center-header;
+    }
 
-.user_interface_heading,
-.user_interface__navigation {
-    line-height: $links-line-height-value;
-}
+    .user_interface_heading,
+    .user_interface__navigation {
+        line-height: $links-line-height-value;
+    }
 
-.user_interface_heading--text,
-.user_interface__navigation--text {
-    @include style-anchor;
-}
+    .user_interface_heading--text,
+    .user_interface__navigation--text {
+        @include style-anchor;
+    }
+
+    @media (min-width: 1040px) {
+        .user_interface_heading,
+        .user_interface__navigation {
+            text-align: start;
+        }
+    }

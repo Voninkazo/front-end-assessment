@@ -171,6 +171,11 @@ nav {
   padding-block-start: 27px;
   padding-block-end: 27px; }
 
+@media (min-width: 1040px) {
+  .user_article__heading--text,
+  .user_article_paragraph {
+    text-align: start; } }
+
 .user_interface__navigation,
 .user_article__heading,
 .user_interface_heading {
@@ -186,6 +191,11 @@ nav {
   color: #00ADEE;
   font-family: lato_bold;
   font-size: 16px; }
+
+@media (min-width: 1040px) {
+  .user_interface_heading,
+  .user_interface__navigation {
+    text-align: start; } }
 
 .feature_experience__header {
   font-size: 28px;

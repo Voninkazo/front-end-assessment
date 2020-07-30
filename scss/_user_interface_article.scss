@@ -1,18 +1,24 @@
 @import "variables";
-
 .user_article__heading {
-@include style-article-header;
+    @include style-article-header;
 }
 
 .user_article_paragraph {
-@include style-paragraph;
-margin: 0;
-padding-block-start: $article-padding-text;
-padding-block-end: $article-padding-text;
+    @include style-paragraph;
+    margin: 0;
+    padding-block-start: $article-padding-text;
+    padding-block-end: $article-padding-text;
 }
 
 .user_article__heading--text {
-  margin: 0;
-  padding-block-start: $article-padding-text;
-  padding-block-end: $article-padding-text;
+    margin: 0;
+    padding-block-start: $article-padding-text;
+    padding-block-end: $article-padding-text;
+}
+
+@media (min-width: 1040px) {
+    .user_article__heading--text,
+    .user_article_paragraph {
+        text-align: start;
+    }
 }
