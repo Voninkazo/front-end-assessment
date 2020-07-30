@@ -214,3 +214,18 @@ nav {
   padding-block-end: 50px;
   padding-inline-start: 24px;
   padding-inline-end: 24px; }
+
+.feature_list__container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.feature_list__item {
+  align-items: center; }
+
+.feature_list__item svg {
+  align-items: center;
+  fill: #00ADEE; }

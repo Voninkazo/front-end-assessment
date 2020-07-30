@@ -1,0 +1,16 @@
+@import "variables";
+.feature_list__container {
+    @include list-reset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feature_list__item {
+    align-items: center;
+}
+
+.feature_list__item svg {
+    align-items: center;
+    fill: #00ADEE;
+}
