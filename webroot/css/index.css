@@ -233,3 +233,33 @@ body > footer {
   margin: 0;
   padding-inline-start: 20px;
   padding-inline-end: 20px; }
+
+.sport_tv {
+  background-image: url(../icons/logo_sports_tv.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sports {
+  background-image: url(../icons/logo_sports_channel.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.nbc_sport {
+  background-image: url(../icons/logo_nbc_sports.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.design_tech {
+  background-image: url(../icons/logo_designer_technology.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.design_new {
+  background-image: url(../icons/logo_designer_news.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sky_sport {
+  background-image: url(../icons/logo_sky_sports.svg);
+  background-size: contain;
+  background-repeat: no-repeat; }
