@@ -263,3 +263,12 @@ body > footer {
   background-image: url(../icons/logo_sky_sports.svg);
   background-size: contain;
   background-repeat: no-repeat; }
+
+.featured_example__header {
+  font-size: 28px;
+  font-family: lato_bold;
+  line-height: 37px;
+  color: #333333; }
+
+.featured_examples header {
+  text-align: center; }

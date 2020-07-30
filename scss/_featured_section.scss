@@ -1,0 +1,10 @@
+@import "variables";
+.featured_container {}
+
+.featured_example__header {
+    @include style-article-header;
+}
+
+.featured_examples header {
+    @include center-header;
+}
