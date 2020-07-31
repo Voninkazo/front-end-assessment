@@ -147,6 +147,19 @@ nav {
   padding-inline-end: 20px;
   padding-block-end: 25px; }
 
+.feature_wrapper {
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-size: 2000px;
+  background-repeat: no-repeat; }
+
+@media (min-width: 1040px) {
+  .feature_wrapper {
+    background-position: calc(274px + 275px) 50%;
+    margin: auto; }
+  .user_interface {
+    max-width: 480px;
+    margin: auto; } }
+
 .user_article__heading {
   font-size: 28px;
   font-family: lato_bold;
@@ -292,7 +305,7 @@ body > footer {
     column-gap: 116px; }
   .navigation_primary {
     grid-column-start: 3;
-    grid-row-end: 1; }
+    grid-row-end: 2; }
   .navigation_secondary {
     grid-column-start: 2; } }
 
@@ -332,7 +345,7 @@ body > footer {
   .featured_container {
     display: flex;
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: start; } }
 
 .nav_twitter {
   background-image: url(../icons/icon_twitter.svg);

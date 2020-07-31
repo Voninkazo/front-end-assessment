@@ -1,9 +1,24 @@
 @import "variables";
 .user_interface {
     margin: 0;
-    // max-width: 340px;
-    // max-height: 368px;
     padding-inline-start: $user-interface-default-padding;
     padding-inline-end: $user-interface-default-padding;
     padding-block-end: $user-interface-padding-bottom;
+}
+
+.feature_wrapper {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1040px) {
+    .feature_wrapper {
+        background-position: calc(274px + 275px) 50%;
+        margin: auto;
+    }
+    .user_interface {
+        max-width: 480px;
+        margin: auto;
+    }
 }
