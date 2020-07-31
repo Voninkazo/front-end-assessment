@@ -7,17 +7,27 @@ body>footer {
 
 .navigation_container {
     @include list-reset;
-}
-
-.link_primary {}
-
-.link_secondary {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
 }
 
 .navigation_container a {
     @include style-anchor;
     color: white;
+}
+
+@media (min-width: 1040px) {
+    body>footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 116px;
+    }
+    footer>nav {}
+    .navigation_primary {
+        grid-column-start: 3;
+    }
+    .navigation_secondary {
+        grid-column-start: 2;
+    }
 }
