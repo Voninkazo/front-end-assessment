@@ -4,3 +4,20 @@ body>footer {
     padding-inline-start: 20px;
     padding-inline-end: 20px;
 }
+
+.navigation_container {
+    @include list-reset;
+}
+
+.link_primary {}
+
+.link_secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation_container a {
+    @include style-anchor;
+    color: white;
+}
