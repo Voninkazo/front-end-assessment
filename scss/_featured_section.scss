@@ -1,6 +1,30 @@
 @import "variables";
-.featured_container {
+.featured_examples {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    padding-block-start: 57px;
+    padding-block-end: 71px;
+    background-color: #FAFAFA;
+}
+
+.featured_container>li {
+    padding-block-start: 17px;
+    padding-block-end: 17px;
+}
+
+#sports_lists {
     display: flex;
+    justify-content: space-around;
+}
+
+#sports_lists li,
+.nbc_sports_lists li {
+    padding-inline-start: 37px;
+}
+
+.nbc_sports_lists {
+    display: flex;
+    justify-content: space-around;
 }
 
 .featured_example__header {
@@ -9,4 +33,12 @@
 
 .featured_examples header {
     @include center-header;
+}
+
+@media (min-width: 1040px) {
+    .featured_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
