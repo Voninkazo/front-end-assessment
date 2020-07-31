@@ -26,6 +26,7 @@ body>footer {
     footer>nav {}
     .navigation_primary {
         grid-column-start: 3;
+        grid-row-end: 1;
     }
     .navigation_secondary {
         grid-column-start: 2;

@@ -223,7 +223,8 @@ nav {
     column-gap: 90px;
     row-gap: 45px; }
   .feature_experience {
-    background-color: #00ADEE; }
+    background-color: #00ADEE;
+    padding: 0; }
   .feature_experience__header {
     color: #FFFFFF; }
   .feature_wrapper {
@@ -288,7 +289,8 @@ body > footer {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 116px; }
   .navigation_primary {
-    grid-column-start: 3; }
+    grid-column-start: 3;
+    grid-row-end: 1; }
   .navigation_secondary {
     grid-column-start: 2; } }
 
