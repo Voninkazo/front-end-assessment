@@ -1,15 +1,16 @@
 @media (min-width: 1040px) {
-  .sport_app__masthead {
-    max-width: 100%;
-    max-height: 100%;
-    background-image: url(../img/bg_header.png);
-    background-position: 557px 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: left;
-    margin: auto;
-  }
+    .sport_app__masthead {
+        background-image: url(../img/bg_header.png);
+        background-position: 463px;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .masthead_wrapper {
+        margin: auto;
+    }
 }
+
 .sport_app__masthead p {
-  margin: 0;
+    margin: 0;
 }
