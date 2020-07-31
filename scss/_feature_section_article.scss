@@ -18,7 +18,9 @@
 }
 
 @media (min-width: 1040px) {
-    .feature_list__item {}
+    .feature_list__item {
+        padding: 0;
+    }
     .feature_list__container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -31,5 +33,9 @@
     }
     .feature_experience__header {
         color: #FFFFFF;
+    }
+    .feature_wrapper {
+        max-width: 1114px;
+        margin: auto;
     }
 }
