@@ -146,18 +146,36 @@ nav {
   padding-inline-end: 20px;
   padding-block-end: 25px; }
 
-.feature_wrapper {
+.user_intrface_article::after {
   background-image: url(../img/bg_friendly_user_interface.png);
-  background-size: 2000px;
-  background-repeat: no-repeat; }
+  content: "";
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-size: 1500px;
+  background-position-x: 50%;
+  background-position-y: 50%; }
 
 @media (min-width: 1040px) {
-  .feature_wrapper {
-    background-position: calc(274px + 275px) 50%;
-    margin: auto; }
+  .user_intrface_article::after {
+    content: "";
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 1800px;
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 240px);
+    transform: translate(-42%, 55%); }
   .user_interface {
+    max-width: 1114px;
+    margin: auto; }
+  .feature_wrapper {
     max-width: 480px;
-    margin: auto; } }
+    padding-block-start: 217px;
+    padding-block-end: 171px; } }
 
 .user_article__heading {
   font-size: 28px;
