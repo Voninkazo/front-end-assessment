@@ -1,36 +1,37 @@
 .button_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
+
 .sports_app__button--download {
-  padding-inline-start: var(--padding-inline-start-text);
-  padding-inline-end: var(--padding-inline-end-text);
+    padding-inline-start: var(--padding-inline-start-text);
+    padding-inline-end: var(--padding-inline-end-text);
 }
 
 span {
-  display: none;
+    display: none;
 }
+
 nav a {
-  width: 145px;
-  height: 44px;
-  display: block;
+    width: 145px;
+    height: 44px;
+    display: block;
 }
+
 nav ul {
-  @include list-reset;
-}
-nav {
-  padding-block-start: 50px;
-  padding-block-end: 59px;
+    @include list-reset;
+    padding-block-start: 76px;
+    padding-block-end: 76px;
 }
 
 @media (min-width: 1040px) {
-  .button_container {
-    justify-content: flex-start;
-  }
-  nav a {
-    width: 156px;
-    height: 47px;
-  }
+    .button_container {
+        justify-content: flex-start;
+    }
+    nav a {
+        width: 156px;
+        height: 47px;
+    }
 }

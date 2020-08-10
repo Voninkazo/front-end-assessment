@@ -60,15 +60,16 @@ header > h1 {
 @media (min-width: 1040px) {
   .sport_app__masthead {
     background-image: url(../img/bg_header.png);
-    background-position: 463px;
-    margin: auto;
+    background-position: 646px;
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: 1000px; }
   .masthead_wrapper {
-    margin: auto; } }
-
-.sport_app__masthead p {
-  margin: 0; }
+    margin: auto;
+    max-width: 1114px;
+    padding-block-start: 61px;
+    padding-block-end: 164px; }
+  .sport_app__masthead p {
+    margin: 0; } }
 
 .button_container {
   display: flex;
@@ -91,11 +92,9 @@ nav a {
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0; }
-
-nav {
-  padding-block-start: 50px;
-  padding-block-end: 59px; }
+  margin: 0;
+  padding-block-start: 76px;
+  padding-block-end: 76px; }
 
 @media (min-width: 1040px) {
   .button_container {
