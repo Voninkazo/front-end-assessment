@@ -367,49 +367,56 @@ body > footer {
     padding: 51px 0;
     order: 2; } }
 
-.featured_examples {
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
-  padding-block-start: 57px;
-  padding-block-end: 71px;
-  background-color: #FAFAFA; }
+.featured_wrapper {
+  padding: 20px; }
 
-.featured_container > li {
-  padding-block-start: 17px;
-  padding-block-end: 17px; }
-
-#sports_lists {
+.feature_container_icons {
+  padding: 0;
+  margin: 0;
   display: flex;
-  justify-content: space-around; }
-
-#sports_lists li,
-.nbc_sports_lists li {
-  padding-inline-start: 37px; }
-
-.nbc_sports_lists {
-  display: flex;
-  justify-content: space-around; }
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .feature_container_icons li:nth-of-type(1) {
+    flex-basis: 50%; }
+  .feature_container_icons li:nth-of-type(2) {
+    flex-basis: 50%; }
+  .feature_container_icons li:nth-of-type(3) {
+    flex-basis: 30%; }
+  .feature_container_icons li:nth-of-type(4) {
+    flex-basis: 40%; }
+  .feature_container_icons li:nth-of-type(5) {
+    flex-basis: 30%; }
+  .feature_container_icons li:nth-of-type(6) {
+    flex-basis: 100%; }
 
 .featured_example__header {
   font-size: 28px;
   font-family: lato_bold;
   line-height: 37px;
-  color: #333333; }
-
-.featured_examples header {
+  color: #333333;
   text-align: center; }
 
 @media (min-width: 1040px) {
-  .featured_container {
+  .feature_container_icons {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    list-style: none;
-    padding: 0;
-    margin: 0; }
+    justify-content: space-between;
+    align-items: center; }
+    .feature_container_icons li:nth-of-type(1) {
+      flex-basis: auto; }
+    .feature_container_icons li:nth-of-type(2) {
+      flex-basis: auto; }
+    .feature_container_icons li:nth-of-type(3) {
+      flex-basis: auto; }
+    .feature_container_icons li:nth-of-type(4) {
+      flex-basis: auto; }
+    .feature_container_icons li:nth-of-type(5) {
+      flex-basis: auto; }
+    .feature_container_icons li:nth-of-type(6) {
+      flex-basis: auto; }
   .featured_wrapper {
     max-width: 1114px;
-    margin: auto; }
-  .featured_container > li,
-  .featured_examples {
-    padding: 0; } }
+    margin: auto; } }
