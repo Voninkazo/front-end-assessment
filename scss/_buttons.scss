@@ -14,13 +14,13 @@ span {
     display: none;
 }
 
-nav a {
+.sports_app__navigation a {
     width: 145px;
     height: 44px;
     display: block;
 }
 
-nav ul {
+.sports_app__navigation ul {
     @include list-reset;
     padding-block-start: 76px;
     padding-block-end: 76px;
@@ -30,7 +30,7 @@ nav ul {
     .button_container {
         justify-content: flex-start;
     }
-    nav a {
+    .sports_app__navigation a {
         width: 156px;
         height: 47px;
     }

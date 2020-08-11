@@ -84,12 +84,12 @@ header > h1 {
 span {
   display: none; }
 
-nav a {
+.sports_app__navigation a {
   width: 145px;
   height: 44px;
   display: block; }
 
-nav ul {
+.sports_app__navigation ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -99,7 +99,7 @@ nav ul {
 @media (min-width: 1040px) {
   .button_container {
     justify-content: flex-start; }
-  nav a {
+  .sports_app__navigation a {
     width: 156px;
     height: 47px; } }
 
@@ -167,11 +167,11 @@ nav ul {
     position: absolute;
     top: 50%;
     left: calc(50% + 240px);
-    transform: translate(-42%, 55%); }
+    transform: translate(-42%, -50%); }
   .user_interface {
     max-width: 1114px;
     margin: auto; }
-  .feature_wrapper {
+  .user_interface_wrapper {
     max-width: 480px;
     padding-block-start: 217px;
     padding-block-end: 171px; } }
@@ -252,9 +252,11 @@ nav ul {
     column-gap: 90px;
     row-gap: 45px; }
   .feature_experience {
-    background-color: #00ADEE;
-    max-width: 1729px;
-    margin: auto; }
+    background-color: #00ADEE; }
+  .feature_experienced_wrapper {
+    max-width: 1114px;
+    margin: auto;
+    padding-bottom: 60px; }
   .feature_experience__header {
     color: #FFFFFF; } }
 
@@ -295,9 +297,7 @@ nav ul {
 
 body > footer {
   background-color: #00ADEE;
-  margin: 0;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px; }
+  margin: 0; }
 
 .navigation_container {
   list-style: none;
@@ -307,23 +307,12 @@ body > footer {
   flex-direction: row;
   justify-content: start; }
 
-.navigation_container a {
-  text-decoration: none;
-  color: #00ADEE;
-  font-family: lato_bold;
-  font-size: 16px;
-  color: white; }
-
 @media (min-width: 1040px) {
-  body > footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 116px; }
-  .navigation_primary {
-    grid-column-start: 3;
-    grid-row-end: 2; }
-  .navigation_secondary {
-    grid-column-start: 2; } }
+  .footer_wrapper {
+    max-width: 1114px;
+    margin: auto;
+    padding-block-start: 20px;
+    padding-block-end: 20px; } }
 
 .featured_examples {
   padding-inline-start: 20px;
@@ -361,7 +350,16 @@ body > footer {
   .featured_container {
     display: flex;
     flex-direction: row;
-    justify-content: start; } }
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .featured_wrapper {
+    max-width: 1114px;
+    margin: auto; }
+  .featured_container > li,
+  .featured_examples {
+    padding: 0; } }
 
 .nav_twitter {
   background-image: url(../icons/icon_twitter.svg);

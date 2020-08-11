@@ -29,13 +29,13 @@
         position: absolute;
         top: 50%;
         left: calc(50% + 240px);
-        transform: translate(-42%, 55%);
+        transform: translate(-42%, -50%);
     }
     .user_interface {
         max-width: 1114px;
         margin: auto;
     }
-    .feature_wrapper {
+    .user_interface_wrapper {
         max-width: 480px;
         padding-block-start: 217px;
         padding-block-end: 171px;
